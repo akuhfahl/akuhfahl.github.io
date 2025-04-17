@@ -1,23 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Pacifico&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Oswald', sans-serif;
-  background: linear-gradient(to bottom, #ffffff, #e6ecf0);
-  color: #002147;
+  background-color: #f2f2f2;
   text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: linear-gradient(to right, #002147, #c8102e);
+  color: white;
   padding: 80px 20px;
 }
 
 h1 {
+  font-family: 'Cinzel Decorative', serif;
   font-size: 4em;
-  margin-bottom: 10px;
-  color: #c8102e;
-  text-shadow: 2px 2px #002147;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
+  text-shadow: 3px 3px #00000060;
+  margin: 0;
 }
 
 p {
   font-size: 1.5em;
-  color:
+  color: white;
+  font-family: 'Pacifico', cursive;
+  margin-top: 20px;
+}

@@ -3,15 +3,16 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f2f2f2;
+  background: url('https://images.unsplash.com/photo-1508387029539-60e5edc8a9b2?auto=format&fit=crop&w=1920&q=80') no-repeat center center;
+  background-size: cover;
   text-align: center;
   font-family: Arial, sans-serif;
 }
 
 header {
-  background: linear-gradient(to right, #002147, #c8102e);
-  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 80px 20px;
+  color: white;
 }
 
 h1 {
@@ -24,7 +25,13 @@ h1 {
 
 p {
   font-size: 1.5em;
-  color: white;
   font-family: 'Pacifico', cursive;
-  margin-top: 20px;
+  margin: 20px 0;
+}
+
+.curb-line {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto 0;
+  display: block;
 }

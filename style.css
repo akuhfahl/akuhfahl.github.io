@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 body {
   margin: 0;
@@ -20,12 +20,16 @@ header {
 
 
 h1 {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 4em;
-  letter-spacing: 4px;
-  text-shadow: 3px 3px #00000060;
+  font-family: 'Anton', sans-serif; /* or 'UnifrakturCook', cursive */
+  font-size: 5em;
+  letter-spacing: 3px;
+  background: linear-gradient(to top, #a40000 10%, #ccc 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px #000;
   margin: 0;
 }
+
 
 p {
   font-size: 1.5em;

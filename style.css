@@ -26,7 +26,7 @@ h1 {
   background: linear-gradient(to top, #a40000 10%, #ccc 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 1px 1px 2px #000;
+  text-shadow: 2px 2px 4px #000;
   margin: 0;
 }
 

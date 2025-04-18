@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Cornhusker Curbing</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
+  <!-- Slick Carousel CSS for slideshow (optional, see below) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 </head>
 <body>
-  <header class="hero">
-    <div class="overlay">
-      <img src="cornhuskerlogo2.PNG" alt="Cornhusker Curbing" class="logo" />
-      <nav class="nav">
-        <a href="#">Home</a>
-        <a href="#">Our Services</a>
-        <a href="#">Contact</a>
-        <a href="#">Gallery</a>
-        <a href="#">Design Your Own!</a>
-      </nav>
-      <div class="hero-text">Let us put curbing around your house, or else...</div>
+  <header class="banner-header">
+    <div class="slideshow-container">
+      <!-- Replace src with your images, can add more divs as needed -->
+      <div><img src="banner1.jpg" alt="Slideshow 1"></div>
+      <div><img src="banner2.jpg" alt="Slideshow 2"></div>
     </div>
-    <div class="slideshow">
-      <img src="slide1.jpg" class="slide active" />
-      <img src="slide2.jpg" class="slide" />
-      <img src="slide3.jpg" class="slide" />
-    </div>
+    <img src="cornhuskerlogo2.png" alt="Cornhusker Curbing" class="main-logo">
+    <nav class="nav-bar">
+      <a href="#">Home</a>
+      <a href="#">Our Services</a>
+      <a href="#">Contact</a>
+      <a href="#">Gallery</a>
+      <a href="#">Design Your Own!</a>
+    </nav>
   </header>
+  <main>
+    <p class="tagline">Let us put curbing around your house, or else...</p>
+  </main>
+  <!-- Slick Carousel JS for slideshow (optional) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    // Initialize the slideshow (if using Slick)
+    $(document).ready(function(){
+      $('.slideshow-container').slick({
+        autoplay: true,
+        autoplaySpeed: 3500,
+        arrows: false,
+        fade: true,
+        speed: 800
+      });
+    });
+  </script>
 </body>
-<script src="script.js"></script>
 </html>
 
